@@ -1,12 +1,13 @@
 import styles from "./Post.module.css";
 import { Comment } from "./Comment";
+import { Avatar } from "./Avatar";
 
 export function Post() {
   return (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img src="https://github.com/kamilalmeida.png" />
+          <Avatar src="https://github.com/kamilalmeida.png" />
           <div className={styles.authorInfo}>
             <strong>Kamila Almeida</strong>
             <span>Web Developer</span>
