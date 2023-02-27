@@ -110,6 +110,11 @@
     background: var(--green-300);
 }
 
+.commentForm button:disabled{
+  opacity: .7;
+  cursor: not-allowed;
+}
+
 .commentList {
   margin-top: 2rem;
 }
